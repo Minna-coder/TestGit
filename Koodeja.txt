@@ -1,0 +1,69 @@
+<html></html>
+
+Sivun aloittava ja lopettava koodi joka osoittaa selaimelle että kyse on html tiedosto.
+
+<head></head>
+
+Header-osan aloittava ja lopettava koodi jonne laitetaan mm. title, metatagit, css ja javascript tiedostojen linkit à tiedostot, jotka muokkaavat tavalla tai toisella sivuston ulkoasua/toimintaa
+
+<title></title>
+
+Selaimen ikkunassa näkyvän otsikon aloittava ja lopettava koodi.
+
+<body></body>
+
+Varsinaisen sivurungon aloittava ja lopettava koodi.
+
+<br></br>
+
+Sitova rivinvaihto
+
+<b></b> tai
+
+<strong> </strong>
+
+Lihavoi
+
+<i> </i>
+
+Kursivoi
+
+<u> </u>
+
+Alleviivaa
+
+<font color=”black”> </font>
+
+Fontin väri
+
+<font size=”10pt”> </font>
+
+Fontin koko
+
+<font face=”arial”> </font>
+
+Fontin tyyppi
+
+<body background=”kuva.jpg”>
+<body bgcolor="red">
+
+Taustakuva
+Taustaväri
+
+<img src=”kuvan osoite” />
+
+Kuvan lisääminen
+
+<a href=”http://www.harjavalta.fi”>
+
+Harjavallan kotisivut</a>
+
+Linkki
+
+<br>
+
+Rivinvaihto
+
+<p> </p>
+
+Kappale
