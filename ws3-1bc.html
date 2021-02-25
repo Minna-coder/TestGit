@@ -68,14 +68,32 @@ function showTable (){
     document.write (html);
 }
 
-
 </script>
   
+<button onclick="showTable"()>Button 3</button>
+<script>
 
-<button onclick="showTable()">Button 3</button>
+var persons = ["Nyssa P. Skinner", "593-4241 Lacus, St.","Cape Verde", 
+	       "Camilla F. Strickland","391-2150 Ac Rd.","Andorra",
+	       "Reagan U. Andrews", "P.O. Box 472, 2271 Mauris Ave","Faroe Islands",
+	       "Kelsey D. Clark", "P.O. Box 866, 7793 Aliquet Ave","Bulgaria"
 
-      </p> 
+         
+htmlTable = ["Name", "Address", "Country"]
+fLen = persons.length;
+
+text = "<ul>";
+for (i = 0; i < fLen; i++) {
+  text += "<li>" + persons[i] + "</li>";
+}
+text += "</ul>";
+
+document.getElementById("demo").innerHTML = text;
+function showTable (){
+    document.write(htmlTable);
+}
+</script>
+</p> 
      
 </body>
 </html>
-
