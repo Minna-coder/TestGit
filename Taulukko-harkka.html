@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+   $(document).ready(function(){
+    var name = ["Norway", "Sweden", "Denmark"];
+    var address = ["Oslo", "Stockholm" , "Copenhagen"];
+    var country = ["Cape Verde", "Andorra", "Faroe Islands"];
+
+    var bodyString = '';
+    $.each(country, function(index, country) {
+        bodyString += ('<tr><td>'+name+'</td><td>'+address[index]+'</td></tr>'+country+'</td></tr>');
+    });
+    $('.country tbody').html(bodyString);
+    
+    });
+</script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+  <table class="table table-striped country">
+      <thead>
+          <tr><th>Name</th><th>Address</th><th>Country</th>
+      </thead>
+      <tbody></tbody>
+  </table>
+</body>
+</html>
