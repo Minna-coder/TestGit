@@ -1,7 +1,10 @@
 html, body  {
+    background-color:rgb(21, 210, 243);
     width: 50%;
     margin: 0 auto;
-    font-size: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    
 }
 
 .container {
