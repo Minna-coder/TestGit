@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(47, 144, 209);
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+ 
+}
+
+h1 {
+  color: white;
+  text-align: left;
+  font-size: 40px;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+h2 {
+color: darkblue;
+font-size: 18px;
+}
+
+legend {
+color: darkblue;
+font-size: 28px;
+text-align: center;
+
+
+}
