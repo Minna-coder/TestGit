@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tyylimuok.css">
+    <title>COVID-19</title>
+
+</head>
+<body>
+
+<div id="ekaDIV" class="header">
+  <h2>COVID-19 INFOPANKKI</h2>
+        
+    <style>
+      img {
+      border-radius: 50%;
+          }
+    </style>
+    </head>
+
+  <body>
+           
+      <img src="covid.jpg" alt="Avatar" style="width:200px">
+          
+      <p>Vie mennessäs - Tuo tullessas!</p>
+      
+      <p>
+        
+        <button onclick="myFunction()"><strong>COVID-19 luvut</strong></button>
+          <script>
+          var d = new Date();
+          function myFunction()
+          {
+            alert("Suomessa on tänään " + d + " kuolleita.");
+           
+          } 
+          </script> 
+          
+      </p> 
+       
+        <input type="text" id="myInput" placeholder="Hae  ...">
+        <span onclick="newElement()" class="addBtn">Lisää</span>
+
+</div>
+      
+      <ul id="ekaUL">
+        <li>Kahvit ja teet</li>
+        <li class="checked">Jätesäkkejä</li>
+        <li>Vuodevaatteet</li>
+        <li>Pyyhkeet</li>
+        <li>Tulitikut</li>
+      </ul>
+     
+<div class="footer">
+          <p><Strong>Terveysturvallisuus - Pidä maskia ja etäisyyttä! Ota rokotus!</Strong></p>
+
+          <a href="https://www.polvijarvi.fi/"><Strong>Kunnan sivut</Strong></a><br>
+          <a href="https://www.foreca.fi/Finland/Polvijarvi"><Strong>Säätila mökillä</Strong></a></br>
+        
+</div>
+
+      <form name="myForm" action="#" method="post">
+        <p> <Strong>Email:</Strong><input type="email" id="email" required /></p><br />
+        <input type="submit" onclick="tarkasta()" value="Lähetä sähköpostia!"/>
+      </form>
+
+        <script src="javamaintoka.js">
+</script> 
+</body>
+</html>
